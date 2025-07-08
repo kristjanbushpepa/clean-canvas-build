@@ -1,73 +1,40 @@
-# Welcome to your Lovable project
+#E-commerce Admin Dashboard
 
-## Project info
+A responsive, modern e-commerce admin dashboard built with **Svelte** and **Tailwind CSS**. Developed as part of a coding challenge for ULTIMS, this app enables efficient product management, inventory tracking, and sales insights through a clean and intuitive interface.
 
-**URL**: https://lovable.dev/projects/093ec6bf-fb7e-4cad-b9af-e64d00d0deda
+---
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- 📦 **Product Management** – Add, edit, and remove product listings.
+- 📊 **Inventory Overview** – Monitor stock levels and update inventory in real time.
+- 📈 **Sales Analytics** – Visualize key metrics using responsive charts.
+- 📱 **Mobile-First Design** – Fully responsive and optimized for all screen sizes.
+- 🧩 **Component-Based Architecture** – Reusable and scalable Svelte components.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/093ec6bf-fb7e-4cad-b9af-e64d00d0deda) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Framework:** [Svelte](https://svelte.dev)  
+- **Styling:** [Tailwind CSS](https://tailwindcss.com)  
+- **Deployment:** Docker (Kubernetes-compatible)  
+- **CI/CD:** GitHub Actions or CircleCI  
+- **Version Control:** Git
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- [Node.js](https://nodejs.org/)
+- [Docker](https://www.docker.com/) *(optional for containerization)*
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/kristjanbushpepa/ecomease-dashboard.git
+cd ecomease-dashboard
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/093ec6bf-fb7e-4cad-b9af-e64d00d0deda) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
