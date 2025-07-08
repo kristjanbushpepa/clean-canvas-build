@@ -34,7 +34,7 @@ A responsive, modern e-commerce admin dashboard built with **Svelte** and **Tail
 ### Installation
 
 ```bash
-git clone https://github.com/kristjanbushpepa/ecomease-dashboard.git
+git clone https://github.com/kristjanbushpepa/ultims-ui-challenge
 cd ecomease-dashboard
 npm install
 npm run dev
